@@ -16,8 +16,8 @@ namespace WPF_PubNub.Model
             //Init
             PNConfiguration pnConfiguration = new PNConfiguration
             {
-                PublishKey = "__YOUR_PUBNUB_PUBLISH_KEY_HERE__",
-                SubscribeKey = "__YOUR_PUBNUB_SUBSCRIBE_KEY_HERE__",
+                PublishKey = "pub-c-fbb8b136-61b0-4f51-acdf-14f07df3fa1c",
+                SubscribeKey = "sub-c-9884b808-8507-11e9-9f15-ba4fa582ffed",
                 Secure = true
             };
             pubnub = new Pubnub(pnConfiguration);
